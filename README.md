@@ -2,24 +2,24 @@
 Exemplo do uso de sincronismo em python: Estrita Alternância, Solução de Peterson, Semáfaros.
 
 ## Pré-requisitos
-Para esse exemplo funcionar é necessário o uso do Python 2.7.
+Para esse exemplo funcionar é necessário o uso do Python 3.
 
 ## Executando o exemplo estrita alternância
 Primeiramente abra um prompt de comando e execute o programa.
 ```
-python alternancia.py 
+python3 alternancia.py 
 ```
 
 ## Executando o exemplo solução de Peterson
 Primeiramente abra um prompt de comando e execute o programa.
 ```
-python peterson.py 
+python3 peterson.py 
 ```
 
 ## Executando o exemplo semáfaro
 Primeiramente abra um prompt de comando e execute o programa.
 ```
-python semafaro.py 
+python3 semafaro.py 
 ```
 
 ## Autor
