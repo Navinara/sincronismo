@@ -1,5 +1,5 @@
 # Exemplo de sincronismo em Python
-Exemplo do uso de sincronismo em python: Estrita Alternância, Solução de Peterson, Semáfaros.
+Exemplo do uso de sincronismo em python: Estrita Alternância, Solução de Peterson, Semáfaros. Os exemplos simulam ainda o efeito comboio com a determinação de um tempo de delay na região não crítica.
 
 ## Pré-requisitos
 Para esse exemplo funcionar é necessário o uso do Python 3.
