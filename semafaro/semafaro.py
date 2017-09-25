@@ -8,7 +8,6 @@ def regiaoCritica():
     time.sleep(1)
 
 def processamentoA(times, delay):
-    global turn
     for x in range(times):
         print ("Secao de Entrada A - ",x+1)        
         s.acquire()
@@ -20,7 +19,6 @@ def processamentoA(times, delay):
         time.sleep(delay)    
 
 def processamentoB(times, delay):
-    global turn
     for x in range(times):
         print ("Secao de Entrada B - ",x+1)
         s.acquire()
@@ -32,7 +30,7 @@ def processamentoB(times, delay):
         time.sleep(delay)
 
 
-print ("Exemplo de Estrita Aternancia")
+print ("Exemplo de Semafaro")
 execTimes = 5
 
 #no processamento você pode passar quantas vezes que a exec e
